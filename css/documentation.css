@@ -288,12 +288,21 @@ h2 {
 }
 
 #graph {
+	display: flex;
 	width: 40%;
 }
 
 .container-wireframe {
-	width: 70%;
+	display: flex;
+	width: -50%;
 }
+.left-column {
+	display: flex;
+}
+.right-column {
+	display: flex;	
+}
+
 
 #explain {
 	margin-left: 2vw;

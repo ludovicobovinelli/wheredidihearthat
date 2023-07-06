@@ -291,18 +291,18 @@ h2 {
 	display: flex;
 	width: 40%;
 }
-
-.container-wireframe {
+/* sezione per il wireframe
+.container {
 	display: flex;
-	width: -50%;
-}
-.left-column {
-	display: flex;
-}
-.right-column {
-	display: flex;	
-}
-
+  }
+.column {
+	flex-basis: 50%;
+  }
+  img {
+	width: auto;
+	height: auto;
+  }
+  */
 
 #explain {
 	margin-left: 2vw;

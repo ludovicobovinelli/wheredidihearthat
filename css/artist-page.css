@@ -250,11 +250,27 @@ h2 {
 	flex: 1;
 	background-color: #0f0f0f;
 	text-align: center;
+	width: 45vw;
+	margin: 0 auto;
+	/* Centra il contenitore nella pagina */
 }
 
 .right-column-content {
 	padding: 20px;
+	text-align: justify;
+	/* Allinea il testo in modo uniforme */
 }
+
+.right-column-content h2 {
+	font-size: 4vw;
+	/* Imposta la dimensione del titolo in relazione alla larghezza della finestra */
+}
+
+.right-column-content p {
+	font-size: 2vw;
+	/* Imposta la dimensione del testo in relazione alla larghezza della finestra */
+}
+
 
 .video-wrapper {
 	margin-bottom: 20px;
@@ -301,18 +317,60 @@ h2 {
 		max-width: 1400px;
 	}
 }
+
 .button-container {
 	display: flex;
-	justify-content: center; /* Allinea i bottoni al centro orizzontalmente */
+	justify-content: center;
+	/* Allinea i bottoni al centro orizzontalmente */
 	color: #0f0f0f;
-	font-size: larger;  
-  }
-  
-  .button-container button {
-	margin: 0 3px; /* Aggiunge uno spazio tra i bottoni */
+	font-size: larger;
+}
+
+.button-container button {
+	margin: 0 10px;
+	/* Aggiunge uno spazio tra i bottoni */
+	padding: 5px 5px;
+	border-radius: 8px;
 	background-color: #b24add;
 	color: #0f0f0f;
-	border-radius: 1%;
 	border: none;
-  }
-  
+}
+
+
+
+
+
+#body {
+	display: grid;
+	grid-template-areas: "grid_1 grid_2";
+	grid-column-gap: 0px;
+	margin: 5%;
+	grid-template-columns: 45vw 45vw;
+}
+
+#grid_1 {
+	grid-area: grid_1;
+	width: 45vw;
+	margin-bottom: 5%;
+	border-radius: 20px 0px 0px 20px;
+}
+
+#grid_2 {
+	grid-area: grid_2;
+	width: 45vw;
+	margin-bottom: 5%;
+	border-radius: 0px 20px 20px 0px;
+}
+
+.desc_banner {
+	border-style: solid;
+	border-color: #f6b6c7;
+	border-width: 5%;
+	border-radius: 20px 0px 0px 20px;
+	overflow: auto;
+}
+
+.img_banner {
+	width: 45vw;
+	border-radius: 0px 20px 20px 0px;
+}

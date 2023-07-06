@@ -228,7 +228,9 @@ body {
 	width: 45vw;	
 	margin-bottom: 2,5%;
 }
-
+#descrizione{
+	align-items: center;
+}
 .desc_banner {
 	
     margin-left: 3vh;

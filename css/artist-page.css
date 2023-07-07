@@ -44,7 +44,7 @@ li {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	text-decoration: none;
-	color: #B4B8AB
+	color: #b4b8ab
 }
 
 li>a:hover {
@@ -88,12 +88,12 @@ body {
 	min-height: 100vh;
 	min-width: 100%;
 	flex-direction: column;
-	background-color: #1C1C1C;
+	background-color: #0f0f0f;
 	margin: 0px;
 	color: #B4B8AB;
 }
 
-/* footer {
+ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -107,11 +107,11 @@ body {
 	text-align: center;
   max-width: 100%;
 
-} */
+} 
 
 #footer {
-	background-color: #f6b6c7;
-	color: #1C1C1C;
+	background-color: #daa8ef;
+	color: #0f0f0f;
 	margin: 0px;
 	margin-top: 50px;
 	min-width: 100%;
@@ -351,20 +351,41 @@ h2 {
 .button-container {
 	display: flex;
 	justify-content: center;
-	font-size: 2vw;
+	align-items: center;
+	gap: 10px;
+	margin-top: 20px;
   }
+  
   .button-container button {
+	flex: 1;
+	max-width: 100px;
+	height: 40px;
+	border: none;
+	background-color: transparent;
+  }
+  
+  .button-container button a {
 	display: flex;
 	justify-content: center;
-	align-items: center;	  
-	margin-left: .5vw;
-	margin-right: .5vw;
-	padding: none;
-	font-size: 20px;
-	background-color: #b24add;
-	color: black;
-	border: none;
-	border-radius: 4px;
-	width: 3.5vw;
-	height: 2.25vw;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
   }
+  
+  .my-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	background-color: #b24add;
+  }
+  
+  .my-button i {
+	color: #000000;
+	font-weight: bold;
+  }
+  
+  

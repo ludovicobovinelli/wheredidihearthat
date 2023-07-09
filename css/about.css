@@ -40,7 +40,7 @@ li {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	text-decoration: none;
-	color: #B4B8AB
+	color: #ffffff
 }
 
 li>a:hover {
@@ -71,14 +71,15 @@ li>a:hover {
 
 #text {
 	font-family: 'League Spartan', sans-serif;
-	margin: 0px;
 	font-size: 1.5vw;
 	padding-bottom: 2em;
-	
+	margin: 0%;
+    line-height: 1;
 }
 
+
 #text h1 {
-	color: #b24add;
+	color: #daa8ef;
 }
 
 
@@ -95,7 +96,19 @@ body {
 	flex-direction: column;
 	background-color: #0f0f0f;
 	margin: 0px;
-	color: #B4B8AB;
+	color: #dcdcdc;
+	overflow-x: hidden;
+}
+
+
+.effetto_link{
+	font-family: 'League Spartan', sans-serif;;
+    color: #b24add;
+    text-decoration: underline;
+}
+
+.effetto_link:hover {
+    color: #daa8ef;
 }
 
 footer {
@@ -105,7 +118,7 @@ footer {
 	align-items: center;
 	background-color: #daa8ef;
 	color: #0f0f0f;
-	margin-top: 2em;
+	margin-top: 1%;
 	width: 100%;
 	padding: 20px;
 	text-align: center;
@@ -162,19 +175,21 @@ footer p {
 }
 
 
-
-
 .active {
 		color: #b24add;
 		border-radius: 10px 10px 0px 0px;
 }
 
-#separator {
-	width: 100%;
-	border: none;
-	height: 1px;
-	background-color: transparent;
-	margin-top: 2em;
-	margin-bottom: 2em;
+
+h1, h2, p {
+	text-align: center; /* Allinea il testo al centro */
+  }
+  
+  #explain {
+	text-align: center; /* Allinea il testo del contenuto al centro */
+  }
+  
+  #title_head {
+	text-align: center; /* Allinea il testo del titolo al centro */
   }
   

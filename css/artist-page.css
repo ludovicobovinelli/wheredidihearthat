@@ -84,26 +84,29 @@ body {
     min-height: 100vh;
     min-width: 100%;
     flex-direction: column;
-    background-color: #1C1C1C;
+    background-color: #0f0f0f;
     margin: 0px;
     color: #B4B8AB;
 }
 
 #footer {
-    background-color: #f6b6c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #daa8ef;
     color: #1C1C1C;
     margin: 0px;
     margin-top: 50px;
     min-width: 100%;
+    padding: 10px;
+	font-family: 'League Spartan', sans-serif;
 }
 
-#footer_p {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    /*padding-top: 2vw;
-    padding-bottom: 2vw;*/
-    font-size: 1vw;
-}
+#footer-text {
+    white-space: nowrap;
+  }
+  
+
 
 #contact-info {
     font-size: 2vw;
@@ -131,13 +134,13 @@ body {
     margin-right: 5px;
 }
 
+
 #infos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 5%;
-```css
     font-family: 'League Spartan', sans-serif;
     text-align: center;
 }
@@ -151,17 +154,26 @@ body {
         "grid_7 grid_8"
         "grid_9 grid_10";
     grid-column-gap: 0px;
-    margin: 5%;
+    margin: 0% 4% 5% 4%;
     grid-template-columns: 45vw 45vw;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* Impedisce lo scorrimento orizzontale */
 }
 
 .img_banner {
     width: 45vw;
     margin-right: 3vh;
+    border-radius: 10px;
 }
 
 .vid1_banner {
-    border-radius: 7px;
+    border-radius: 10px;
     margin-right: 3vh;
     width: 45vw;
     height: 30vw;
@@ -171,7 +183,7 @@ body {
     grid-area: grid_1;
     width: 45vw;    
     margin-bottom: 5%;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 10px;
 }
 
 #grid_2 {
@@ -183,50 +195,89 @@ body {
 #grid_3 {
     grid-area: grid_3;
     width: 45vw;
-    margin-bottom: 2,5%;    
+    margin-bottom: 2,5%;   
+    text-align: center; 
 }
 
 #grid_4 {
     grid-area: grid_4;
     width: 45vw;    
     margin-bottom: 2,5%;
+    text-align: center; 
 }
 
 #grid_5 {
     grid-area: grid_5;
     width: 45vw;    
     margin-bottom: 2,5%;
+    text-align: center; 
 }
 
 #grid_6 {
     grid-area: grid_6;
     width: 45vw;    
     margin-bottom: 2,5%;
+    text-align: center; 
 }
 
 #grid_7 {
     grid-area: grid_7;
     width: 45vw;    
     margin-bottom: 2,5%;
+    text-align: center; 
 }
 
 #grid_8 {
     grid-area: grid_8;
     width: 45vw;    
     margin-bottom: 2,5%;
+    text-align: center; 
 }
 
 #grid_9 {
     grid-area: grid_9;
     width: 45vw;    
     margin-bottom: 2,5%;
+    text-align: center; 
 }
 
 #grid_10 {
     grid-area: grid_10;
     width: 45vw;    
     margin-bottom: 2,5%;
+    text-align: center; 
 }
+
+#grid_3 p,
+#grid_4 p,
+#grid_5 p,
+#grid_6 p,
+#grid_7 p,
+#grid_8 p,
+#grid_9 p,
+#grid_10 p  {
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1.5vw;
+    width: fit-content;
+}
+
+.desc_banner p,
+#grid_3 p,
+#grid_4 p,
+#grid_5 p,
+#grid_6 p,
+#grid_7 p,
+#grid_8 p,
+#grid_9 p,
+#grid_10 p {
+    padding: 0%;
+    font-size: 1.5vw;
+    line-height: 1;
+}
+
 
 .desc_banner {   
     margin-left: 3vh;
@@ -234,7 +285,7 @@ body {
 
 .vid2_banner {
     margin-left: 3vh;
-    border-radius: 7px;
+    border-radius: 10px;
     width: 45vw;
     height: 30vw;
 }
@@ -252,54 +303,6 @@ p {
     color: #B4B8AB;
 }
 
-#start {
-    text-align: center;
-    border-radius: 20px 20px 20px 20px;
-    background-color: #f6b6c7;
-    color: #1c1c1c;
-    font-family: igor_font;
-    font-size: 6vw;
-    margin: 0px 25% 0% 25%;
-    padding: 2%;
-}
-
-a > #start:hover {
-    background-color: #1c1c1c;
-    color: #B4B8AB;
-    border-style: solid;
-    border-color: #f6b6c7;
-}
-
-a {
-    text-decoration: none;
-}
-
-#calltoaction {
-    text-align: center;
-    font-size: 2vw;
-}
-
-#about {
-    text-align: center;
-    border-radius: 20px 20px 20px 20px;
-    border-style: solid;
-    border-color: #f6b6c7;
-    background-color: #1c1c1c;
-    font-size: 2vw;
-    margin: 0px 40% 5% 40%;
-    padding: 1%;
-}
-
-#or {
-    margin: 2%;
-    font-size: 2.3vw;
-}
-
-#contacts {
-    padding-left: 0.5w;
-    font-size: 0.5vw;
-    text-align: center;
-}
 
 .active {
     color: #b24add;
@@ -324,14 +327,6 @@ h2 {
     font-size: 110%;
 }
 
-#separator {
-    width: 100%;
-    border: none;
-    height: 1px;
-    background-color: transparent;
-    margin-top: 2em;
-    margin-bottom: 3vh;
-}
 
 #grid_3 iframe,
 #grid_4 iframe,
@@ -346,7 +341,7 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
+	gap: 15%;
 	margin-top: 20px;
   }
   
@@ -357,6 +352,7 @@ h2 {
 	border: none;
 	background-color: transparent;
   }
+
   
   .button-container button a {
 	display: flex;
@@ -377,7 +373,16 @@ h2 {
 	background-color: #b24add;
   }
   
+  .my-button:hover {
+    background-color: #ffffff; 
+  }
+
   .my-button i {
 	color: #000000;
 	font-weight: bold;
   }
+
+
+
+
+ 

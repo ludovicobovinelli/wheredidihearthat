@@ -88,22 +88,26 @@ body {
 	overflow-x: hidden; /* Nasconde lo scrolling laterale */
   }
   
-  footer {
+  #footer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #daa8ef;
-    color: #0f0f0f;
+    color: #1C1C1C;
     margin: 0px;
-    margin-top: auto;
+    margin-top: 1%;
     min-width: 100%;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
+	font-family: 'League Spartan', sans-serif;
 }
 
+#footer-text {
+	white-space: nowrap;
+  }
+  
+
+
 #contact-info {
-    font-family: 'League Spartan', sans-serif;
     font-size: 2vw;
     display: flex;
     flex-direction: column;
@@ -116,7 +120,8 @@ body {
     margin: 10px;
     color: #b24add;
     text-decoration: none;
-    font-size: 1.4vw; /* Dimensione del testo relativa */
+    font-size: 1.4vw;
+    /* Dimensione del testo relativa */
 }
 
 #contact-info a:hover {
@@ -127,11 +132,6 @@ body {
 .fa-instagram {
     margin-right: 5px;
 }
-
-
-footer p {
-	font-family: 'League Spartan', sans-serif;
-  }
 
 
 #infos {
@@ -312,8 +312,9 @@ h2 {
   .image-container img {
 	max-width: 60%;
 	height: auto;
-	margin: 10px auto;
+	margin: 1% auto;
 	transition: transform 0.5s ease;
+	border-radius: 10px;
   }
   
   .image-container img:hover {

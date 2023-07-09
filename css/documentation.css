@@ -24,6 +24,13 @@ h1 {
 	min-width: 100%;
 }
 
+h2 {
+	font-family: 'League Spartan', sans-serif;
+	font-size: 4vw;
+	min-width: 100%;
+	color: #daa8ef;
+}
+
 li>a {
 	text-decoration: none;
 	color: #ffffff;
@@ -84,32 +91,36 @@ body {
 	align-items: center; /* Centra il contenuto verticalmente */
 	background-color: #0f0f0f;
 	margin: 0;
-	color: #b4b8ab;
+	color: #dcdcdc;
 	overflow-x: hidden; /* Nasconde lo scrolling laterale */
   }
   
   footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #daa8ef;
-    color: #0f0f0f;
-    margin: 0px;
-    margin-top: auto;
-    min-width: 100%;
-    padding: 20px;
-    text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #daa8ef;
+	color: #0f0f0f;
+	margin-top: 1%;
+	padding: 20px;
+	text-align: center;
 }
 
+#footer {
+	width: 100%;
+}
+
+
 #contact-info {
-    font-family: 'League Spartan', sans-serif;
-    font-size: 2vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: -10px;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 1.4vw; /* Cambia la dimensione del testo a 1.4vw */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: -10px;
+
 }
 
 #contact-info a {
@@ -134,24 +145,6 @@ footer p {
   }
 
 
-#infos {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 5%;
-	font-family: 'League Spartan', sans-serif;
-	text-align: center;
-}
-
-#infos p {
-	font-size: 4vw;
-	color: #ffffff;
-	font-weight: bold;
-	margin-bottom: 0.1em; /* Regola il valore del margine inferiore come desiderato */
-	margin-top: 0.1em
-  }
-  
 
 
 .img_banner {
@@ -172,7 +165,12 @@ footer p {
 }
 
 p {
+	font-family: 'League Spartan', sans-serif;
 	font-size: 1.5vw;
+	padding-bottom: 2em;
+	margin: 0%;
+	line-height: 1;
+
 }
 
 #start>a {
@@ -235,30 +233,6 @@ a {
 	overflow: hidden;
 }
 
-#linkToPages a {
-	text-align: center;
-	align-items: center;
-	border-radius: 20px;
-	background-color: #b24add;
-	color: #FFFFFF;
-	font-weight: bold;
-	font-family: 'League Spartan', sans-serif;
-	font-size: 3vw;
-	padding: 3vh 3vh;
-	width: fit-content;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-	/* transition: background-color 0.5s, color 0.5s; */
-	box-sizing: border-box;
-	margin-top: 0;
-}
-
-
-#linkToPages a:hover {
-	background-color: #ffffff;
-	color: #b24add;
-} 
 
 
 #about {
@@ -282,27 +256,20 @@ a {
 	border-radius: 10px 10px 0px 0px;
 }
 
-h2 {
+h3 {
 	margin-left: 1vw;
 	font-family: 'League Spartan', sans-serif;
+	color: #FFFFFF;
+	font-size: 2vw;
 }
 
-#graph {
+#img_doc {
 	display: flex;
-	width: 40%;
-}
-/* sezione per il wireframe
-.container {
-	display: flex;
-  }
-.column {
-	flex-basis: 50%;
-  }
-  img {
-	width: auto;
-	height: auto;
-  }
-  */
+	width: 30%; /* Modifica la larghezza dell'immagine come preferisci */
+	height: auto; /* L'altezza si adatterà proporzionalmente */
+	margin: 0 auto; /* Centra l'immagine orizzontalmente */
+	}
+	
 
 #explain {
 	margin-left: 2vw;
@@ -310,4 +277,27 @@ h2 {
 	font-size: 110%;
 	font-family: 'League Spartan', sans-serif;
 	color: #b4b8ab;
+}
+
+h2, h3, p {
+	text-align: center; /* Allinea il testo al centro */
+  }
+  
+  #explain {
+	text-align: center; /* Allinea il testo del contenuto al centro */
+  }
+  
+  #title_head {
+	text-align: center; /* Allinea il testo del titolo al centro */
+  }
+  
+
+.effetto_link{
+	font-family: 'League Spartan', sans-serif;;
+    color: #b24add;
+    text-decoration: underline;
+}
+
+.effetto_link:hover {
+    color: #daa8ef;
 }

@@ -44,7 +44,7 @@ li {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	text-decoration: none;
-	color: #B4B8AB
+	color: #b4b8ab
 }
 
 li>a:hover {
@@ -88,12 +88,12 @@ body {
 	min-height: 100vh;
 	min-width: 100%;
 	flex-direction: column;
-	background-color: #1C1C1C;
+	background-color: #0f0f0f;
 	margin: 0px;
 	color: #B4B8AB;
 }
 
-/* footer {
+ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -107,11 +107,11 @@ body {
 	text-align: center;
   max-width: 100%;
 
-} */
+} 
 
 #footer {
-	background-color: #f6b6c7;
-	color: #1C1C1C;
+	background-color: #daa8ef;
+	color: #0f0f0f;
 	margin: 0px;
 	margin-top: 50px;
 	min-width: 100%;
@@ -120,8 +120,8 @@ body {
 #footer_p {
 	margin-bottom: 0px;
 	margin-top: 0px;
-	padding-top: 2vw;
-	padding-bottom: 2vw;
+	/*padding-top: 2vw;
+	padding-bottom: 2vw;*/
 	font-size: 1vw;
 }
 
@@ -228,7 +228,9 @@ body {
 	width: 45vw;	
 	margin-bottom: 2,5%;
 }
-
+#descrizione{
+	align-items: center;
+}
 .desc_banner {
 	
     margin-left: 3vh;
@@ -303,8 +305,9 @@ a {
 
 
 #contacts {
-	padding-left: 1vw;
-	font-size: 1vw;
+	padding-left: 0.5w;
+	font-size: 0.5vw;
+	text-align: center;
 }
 
 .active {
@@ -345,3 +348,44 @@ h2 {
 #grid_4 iframe {
   max-width: 100%;
 }
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-top: 20px;
+  }
+  
+  .button-container button {
+	flex: 1;
+	max-width: 100px;
+	height: 40px;
+	border: none;
+	background-color: transparent;
+  }
+  
+  .button-container button a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+  }
+  
+  .my-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	background-color: #b24add;
+  }
+  
+  .my-button i {
+	color: #000000;
+	font-weight: bold;
+  }
+  
+  

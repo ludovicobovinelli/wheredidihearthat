@@ -88,22 +88,27 @@ body {
 	overflow-x: hidden; /* Nasconde lo scrolling laterale */
   }
   
-  footer {
+
+
+  #footer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #daa8ef;
-    color: #0f0f0f;
+    color: #1C1C1C;
     margin: 0px;
-    margin-top: auto;
+    margin-top: 1%;
     min-width: 100%;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
+	font-family: 'League Spartan', sans-serif;
 }
+#footer-text {
+	white-space: nowrap;
+  }
+  
+
 
 #contact-info {
-    font-family: 'League Spartan', sans-serif;
     font-size: 2vw;
     display: flex;
     flex-direction: column;
@@ -116,7 +121,8 @@ body {
     margin: 10px;
     color: #b24add;
     text-decoration: none;
-    font-size: 1.4vw; /* Dimensione del testo relativa */
+    font-size: 1.4vw;
+    /* Dimensione del testo relativa */
 }
 
 #contact-info a:hover {
@@ -129,9 +135,7 @@ body {
 }
 
 
-footer p {
-	font-family: 'League Spartan', sans-serif;
-  }
+
 
 
 #infos {
@@ -145,7 +149,7 @@ footer p {
 }
 
 #infos p {
-	font-size: 4vw;
+	font-size: 3.5vw;
 	color: #ffffff;
 	font-weight: bold;
 	margin-bottom: 0.1em; /* Regola il valore del margine inferiore come desiderato */
@@ -233,6 +237,7 @@ a {
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
+	margin-bottom: 1%;
 }
 
 #linkToPages a {
@@ -249,9 +254,8 @@ a {
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
-	/* transition: background-color 0.5s, color 0.5s; */
 	box-sizing: border-box;
-	margin-top: 0;
+	margin-bottom: 12%;
 }
 
 
@@ -282,8 +286,23 @@ a {
 	border-radius: 10px 10px 0px 0px;
 }
 
+
+
 h2 {
-	margin-left: 1vw;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 4.5vw;
+	min-width: 100%;
+	color: #b24add;
+	margin-top: 2em;
+}
+
+.effetto_link{
+	font-family: 'League Spartan', sans-serif;;
+    color: #b24add;
+}
+
+.effetto_link:hover {
+    color: #daa8ef;
 }
 
 #graph {

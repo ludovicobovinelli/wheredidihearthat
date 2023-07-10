@@ -159,8 +159,9 @@ body {
     grid-template-columns: 45vw 45vw;
 }
 .body{
-    padding-right: 1vw;
+    padding-right: 20%;
     overflow-x: hidden;
+    
 }
 
 html,

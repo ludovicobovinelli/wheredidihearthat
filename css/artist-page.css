@@ -67,6 +67,7 @@ li>a:hover {
     padding-top: 3vh;
     padding-bottom: 2.5vh;
     text-align: center;
+    align-items: center;
 }
 
 #text {
@@ -157,13 +158,18 @@ body {
     margin: 0% 4% 5% 4%;
     grid-template-columns: 45vw 45vw;
 }
+.body{
+    padding-right: 1vw;
+    overflow-x: hidden;
+}
 
 html,
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow-x: hidden; /* Impedisce lo scorrimento orizzontale */
+margin: 0;
+padding-bottom: 0px;
+padding-top: 0px;
+height: 100%;
+overflow-x: hidden;  /*Impedisce lo scorrimento orizzontale */
 }
 
 .img_banner {
@@ -330,11 +336,14 @@ h2 {
 
 #grid_3 iframe,
 #grid_4 iframe,
+#grid_5 iframe,
+#grid_6 iframe,
 #grid_7 iframe,
 #grid_8 iframe,
 #grid_9 iframe,
 #grid_10 iframe {
     max-width: 100%;
+    
 }
 
 .button-container {

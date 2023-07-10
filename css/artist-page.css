@@ -106,9 +106,6 @@ body {
 #footer-text {
     white-space: nowrap;
   }
-  
-
-
 #contact-info {
     font-size: 2vw;
     display: flex;
@@ -283,6 +280,7 @@ overflow-x: hidden;  /*Impedisce lo scorrimento orizzontale */
     padding: 0%;
     font-size: 1.5vw;
     line-height: 1;
+    padding-right: 3%;
 }
 
 

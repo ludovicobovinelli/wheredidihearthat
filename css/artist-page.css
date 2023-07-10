@@ -158,8 +158,8 @@ body {
     margin: 0% 4% 5% 4%;
     grid-template-columns: 45vw 45vw;
 }
-.body{
-    padding-right: 20%;
+.bodygrid{
+    padding-right: 10%;
     overflow-x: hidden;
     
 }

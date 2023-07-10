@@ -105,6 +105,9 @@ body {
 #footer-text {
 	white-space: nowrap;
   }
+  footer p {
+	font-family: 'League Spartan', sans-serif;
+  }
   
 
 

@@ -111,18 +111,21 @@ body {
     color: #daa8ef;
 }
 
-footer {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: #daa8ef;
-	color: #0f0f0f;
-	margin-top: 1%;
-	width: 100%;
-	padding: 20px;
-	text-align: center;
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #daa8ef;
+    color: #1C1C1C;
+    margin: 0px;
+    margin-top: 1%;
+    min-width: 100%;
+    padding: 10px;
+	font-family: 'League Spartan', sans-serif;
 }
+#footer-text {
+	white-space: nowrap;
+  }
 
 #contact-info {
 	font-family: 'League Spartan', sans-serif;

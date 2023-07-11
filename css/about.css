@@ -72,8 +72,11 @@ li>a:hover {
 #text {
 	font-family: 'League Spartan', sans-serif;
 	font-size: 1.5vw;
+	text-align: center;
 	padding-bottom: 2em;
-	margin: 0%;
+	padding-left: 3%;
+	padding-right: 8%;
+	overflow-x: hidden;
     line-height: 1;
 }
 

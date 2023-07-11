@@ -143,7 +143,7 @@ body {
     text-align: center;
 }
 
-#body {
+#body:not(footer) {
     display: grid;
     grid-template-areas: 
         "grid_1 grid_2"
@@ -154,9 +154,10 @@ body {
     grid-column-gap: 0px;
     margin: 0% 4% 5% 4%;
     grid-template-columns: 45vw 45vw;
+    margin-right: 10%;
 }
 .bodygrid{
-    padding-right: 10%;
+
     overflow-x: hidden;
     
 }
